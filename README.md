@@ -27,7 +27,6 @@ npm i postgres -> Cliente PostgreSQL
 
 npm init -y -> Cria o package.json
 npx tsc --init -> Gera o tsconfig.json
-npm run dev -> Roda o server
 
 ---
 
@@ -43,3 +42,8 @@ docker compose ps -> Lista os containers em execução
 npx drizzle-kit generate -> Gera as migrações com base nos schemas
 npx drizzle-kit migrate -> Executa as migrações no banco
 npx drizzle-kit studio -> Abre o painel web do banco
+
+## RODAR PROJETO
+
+abrir docker e start container ou docker compose up -d
+npm run dev -> Roda o server
