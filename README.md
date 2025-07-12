@@ -39,8 +39,12 @@ docker compose ps -> Lista os containers em execução
 
 ## 🧬 COMANDOS DO DRIZZLE ORM
 
-npx drizzle-kit generate -> Gera as migrações com base nos schemas
-npx drizzle-kit migrate -> Executa as migrações no banco
+npm run db:generate -> Gera as migrações com base nos schemas
+npm run db:migrate -> Executa as migrações no banco
+npm run db:seed -> popula o banco com dados ficticios
+
+após criar novas tabelas, tem que executar os comandos acima
+
 npx drizzle-kit studio -> Abre o painel web do banco
 
 ## RODAR PROJETO
