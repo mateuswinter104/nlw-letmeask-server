@@ -15,6 +15,13 @@
       "when": 1752278798402,
       "tag": "0001_quick_bill_hollister",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752325199955,
+      "tag": "0002_huge_gauntlet",
+      "breakpoints": true
     }
   ]
 }
